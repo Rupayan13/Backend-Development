@@ -27,8 +27,38 @@ var i=5;
 // Relational Operator
 
 // Equality
+/*
 console.log(1==1);
 
 console.log(1=='1');
 
 console.log(1==='1');
+*/
+
+// Inequality
+/*
+console.log(1!=1);
+console.log(1!=='1');
+*/
+
+// Comparative
+
+// console.log(3>4);
+
+// Logical Operator
+
+// AND Operator
+console.log(3<4 && true);
+console.log(3>4 && true);
+
+// OR Operator
+console.log(3>4 || true);
+
+//XOR Operator
+console.log(true ^ false);
+console.log(true ^ true);
+
+//Bitwise Operator
+console.log(10 & 6);
+
+console.log(10 | 6);
