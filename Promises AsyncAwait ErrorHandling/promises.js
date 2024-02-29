@@ -95,4 +95,4 @@ Promise.any([gf1Promise, gf2Promise, gf3Promise]).then((msg)=>{
 }).catch((msg)=>{
     console.log(msg);
     console.log("How to be the part of Bajrangdal");
-})
+});
