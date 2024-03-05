@@ -18,14 +18,7 @@ const studentSchema = new mongoose.Schema({
         minLength:15
     },
     subjects:[String],
-    createdAt:{
-        type:Date,
-        immutable:true,
-        default:()=>{
-            return Date.now();
-        }
-    }
-});
+},{versionKey : false, timestamps:true});
 
 //Go ahed and create corresponding collection in DB
 module.exports = mongoose.model("Student", studentSchema);
