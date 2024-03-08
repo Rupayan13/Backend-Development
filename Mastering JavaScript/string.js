@@ -54,3 +54,11 @@ console.log(word.trim());
 name = "Rupayan Dirghangi";
 console.log(name.split(''));//separate in the basis of characters in a array
 console.log(name.split(" "));//separate in the basis of strings in a array
+
+// _________________________________________________________adding(Subhomoy21)__________
+// some facts about js which is taken from ts.
+const name = "Subhomoy"
+const repoCount = 13;
+console.log(name + repoCount +"value"); // it pretty much old
+// modern (use backticks)
+console.log(`Hello my name is ${name} and my repo count is ${repoCount} `); // string interpolation
